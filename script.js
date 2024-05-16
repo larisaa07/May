@@ -9,7 +9,7 @@ const teamMembers = [
         symbols: ['thunderbolt', 'eagle', 'oak tree', 'bull', 'scepter', 'scales'],
         spouce: true,
         spouceName: 'Hera',
-    }
+    },
     {
         name: 'Hera',
         romanName: 'Juno',
@@ -17,9 +17,9 @@ const teamMembers = [
         father: 'Cronus',
         mother: 'Rhea',
         symbols: ['peacock', 'cuckoo', 'cow'],
-        spouce: true,
+        spouse: true,
         spouceName: 'Zeus',
-    }
+    },
     {
         name: 'Poseidon',
         romanName: 'Neptune',
@@ -29,7 +29,7 @@ const teamMembers = [
         symbols: ['trident', 'horse', 'bull', 'dolphin'],
         spouce: true,
         spouceName: 'Amphitrite (Nereid)',
-    }
+    },
     {
         name: 'Demeter',
         romanName: 'Ceres',
@@ -39,7 +39,7 @@ const teamMembers = [
         symbols: ['poppy', 'wheat', 'torch', 'cornucopia', 'pig'],
         spouce: false,
         spouceName: 'N/A',
-    }
+    },
     {
         name: 'Athena',
         romanName: 'Minerva',
@@ -49,7 +49,7 @@ const teamMembers = [
         symbols: ['owl', 'olive tree'],
         spouce: false,
         spouceName: 'N/A',
-    }
+    },
     {
         name: 'Hephaestus',
         romanName: 'Vulcan',
@@ -59,7 +59,7 @@ const teamMembers = [
         symbols: ['fire', 'anvil', 'axe', 'donkey', 'hammer', 'tongs', 'quail'],
         spouce: true,
         spouceName: 'Aphrodite',
-    }
+    },
     {
         name: 'Ares',
         romanName: 'Mars',
@@ -69,7 +69,7 @@ const teamMembers = [
         symbols: ['boar', 'serpent', 'dog', 'vulture', 'spear', 'sheild'],
         spouce: false,
         spouceName: 'N/A (in a relationship w/ Aphrodite)',
-    }
+    },
     {
         name: 'Aphrodite',
         romanName: 'Venus',
@@ -79,7 +79,7 @@ const teamMembers = [
         symbols: ['dove', 'bird', 'apple', 'bee', 'swan', 'myrtle', 'rose'],
         spouce: true,
         spouceName: 'Hephaestus',
-    }
+    },
     {
         name: 'Artemis',
         romanName: 'Diana',
@@ -89,7 +89,7 @@ const teamMembers = [
         symbols: ['the moon', 'horse', 'deer', 'hound', 'she-bear', 'cypress tree', 'bow and arrow'],
         spouce: false,
         spouceName: 'N/A',
-    }
+    },
     {
         name: 'Apollo',
         romanName: 'Apollo',
@@ -99,7 +99,7 @@ const teamMembers = [
         symbols: ['lyre', 'raven', 'swan', 'wolf', 'bow and arrow'],
         spouce: false,
         spouceName: 'N/A',
-    }
+    },
     {
         name: 'Hermes',
         romanName: 'Mercury',
@@ -109,7 +109,7 @@ const teamMembers = [
         symbols: ['the caduceus (his staff with 2 snakes on it)', 'winged sandals', 'stork', 'tortoise'],
         spouce: false,
         spouceName: 'N/A',
-    }
+    },
     {
         name: 'Dionysus',
         romanName: 'Bacchus',
