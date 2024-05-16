@@ -7,8 +7,8 @@ const teamMembers = [
         father: 'Cronus',
         mother: 'Rhea',
         symbols: ['thunderbolt', 'eagle', 'oak tree', 'bull', 'scepter', 'scales'],
-        spouce: true,
-        spouceName: 'Hera',
+        spouse: true,
+        spouseName: 'Hera',
     },
     {
         name: 'Hera',
@@ -18,7 +18,7 @@ const teamMembers = [
         mother: 'Rhea',
         symbols: ['peacock', 'cuckoo', 'cow'],
         spouse: true,
-        spouceName: 'Zeus',
+        spouseName: 'Zeus',
     },
     {
         name: 'Poseidon',
@@ -27,8 +27,8 @@ const teamMembers = [
         father: 'Cronus',
         mother: 'Rhea',
         symbols: ['trident', 'horse', 'bull', 'dolphin'],
-        spouce: true,
-        spouceName: 'Amphitrite (Nereid)',
+        spouse: true,
+        spouseName: 'Amphitrite (Nereid)',
     },
     {
         name: 'Demeter',
@@ -37,8 +37,8 @@ const teamMembers = [
         father: 'Cronus',
         mother: 'Rhea',
         symbols: ['poppy', 'wheat', 'torch', 'cornucopia', 'pig'],
-        spouce: false,
-        spouceName: 'N/A',
+        spouse: false,
+        spouseName: 'N/A',
     },
     {
         name: 'Athena',
@@ -47,8 +47,8 @@ const teamMembers = [
         father: 'Zeus',
         mother: 'Metis (Oceanid)',
         symbols: ['owl', 'olive tree'],
-        spouce: false,
-        spouceName: 'N/A',
+        spouse: false,
+        spouseName: 'N/A',
     },
     {
         name: 'Hephaestus',
@@ -57,8 +57,8 @@ const teamMembers = [
         father: 'Zeus (or N/A - born of asexual reproduction)',
         mother: 'Hera',
         symbols: ['fire', 'anvil', 'axe', 'donkey', 'hammer', 'tongs', 'quail'],
-        spouce: true,
-        spouceName: 'Aphrodite',
+        spouse: true,
+        spouseName: 'Aphrodite',
     },
     {
         name: 'Ares',
@@ -67,8 +67,8 @@ const teamMembers = [
         father: 'Zeus',
         mother: 'Hera',
         symbols: ['boar', 'serpent', 'dog', 'vulture', 'spear', 'sheild'],
-        spouce: false,
-        spouceName: 'N/A (in a relationship w/ Aphrodite)',
+        spouse: false,
+        spouseName: 'N/A (in a relationship w/ Aphrodite)',
     },
     {
         name: 'Aphrodite',
@@ -77,8 +77,8 @@ const teamMembers = [
         father: 'Zeus',
         mother: 'Dione (Oceanid or Titaness)',
         symbols: ['dove', 'bird', 'apple', 'bee', 'swan', 'myrtle', 'rose'],
-        spouce: true,
-        spouceName: 'Hephaestus',
+        spouse: true,
+        spouseName: 'Hephaestus',
     },
     {
         name: 'Artemis',
@@ -87,8 +87,8 @@ const teamMembers = [
         father: 'Zeus',
         mother: 'Leto',
         symbols: ['the moon', 'horse', 'deer', 'hound', 'she-bear', 'cypress tree', 'bow and arrow'],
-        spouce: false,
-        spouceName: 'N/A',
+        spouse: false,
+        spouseName: 'N/A',
     },
     {
         name: 'Apollo',
@@ -97,8 +97,8 @@ const teamMembers = [
         father: 'Zeus',
         mother: 'Leto',
         symbols: ['lyre', 'raven', 'swan', 'wolf', 'bow and arrow'],
-        spouce: false,
-        spouceName: 'N/A',
+        spouse: false,
+        spouseName: 'N/A',
     },
     {
         name: 'Hermes',
@@ -107,8 +107,8 @@ const teamMembers = [
         father: 'Zeus',
         mother: 'Maia (Nymph)',
         symbols: ['the caduceus (his staff with 2 snakes on it)', 'winged sandals', 'stork', 'tortoise'],
-        spouce: false,
-        spouceName: 'N/A',
+        spouse: false,
+        spouseName: 'N/A',
     },
     {
         name: 'Dionysus',
@@ -117,8 +117,8 @@ const teamMembers = [
         father: 'Zeus',
         mother: 'Semele (mortal Theban princess)',
         symbols: ['grapevine', 'ivy', 'cup', 'tiger', 'leopard', 'dolphin', 'goat', 'pinecone'],
-        spouce: true,
-        spouceName: 'Aridne (Cretan princess)',
+        spouse: true,
+        spouseName: 'Aridne (Cretan princess)',
     }
 ]
 
@@ -142,7 +142,7 @@ function generateTeamCards(){
                 backgroundColor = 'blue'
                 break
             case 'demeter':
-                backgroundColor = 'red'
+                backgroundColor = 'green'
                 break
             case 'athena':
                 backgroundColor = 'gray'
@@ -157,10 +157,10 @@ function generateTeamCards(){
                 backgroundColor = 'pink'
                 break
             case 'artemis':
-                backgroundColor = 'gray'
+                backgroundColor = 'silver'
                 break
             case 'apollo':
-                backgroundColor = 'yellow'
+                backgroundColor = 'gold'
                 break
             case 'hermes':
                 backgroundColor = 'orange'
