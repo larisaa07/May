@@ -1,0 +1,16 @@
+body{
+    background-color:rgba(226, 180, 53, 0.74);
+    
+}
+
+h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    color:rgb(124, 36, 124);
+    font-size:60px;
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
