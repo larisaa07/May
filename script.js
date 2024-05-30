@@ -161,6 +161,14 @@ function generateTeamCards(){
         }
         card.style.backgroundColor = backgroundColor
 
+         //Create a list of titleDomain with <li> tags
+    const titleDomainList = member.titleDomain
+    .map(titleDomain => `<li> ${titleDomain} </li>`).join('')
+
+        //Create a list of symbols with <li> tags
+    const symbolsList = member.symbols
+    .map(symbols => `<li> ${symbols} </li>`).join('')
+
         card.innerHTML=`
             <div class="card">
                 <div   class = "card-header">
@@ -168,10 +176,18 @@ function generateTeamCards(){
                 </div>
                 <div class="card-body" style = "background-color:${backgroundColor};">
                     <p><strong>Roman Name:</strong> ${member.romanName}</p>
-                    <p><strong>Title & Domain:</strong> ${member.titleDomain}</p>
+                    <p><strong>Title & Domain:</strong>
+                        <ul>
+                            ${titleDomainList}
+                        </ul>
+                    </p>
                     <p><strong>Father:</strong> ${member.father}</p>
                     <p><strong>Mother:</strong> ${member.mother}</p>
-                    <p><strong>Symbols:</strong> ${member.symbols}</p>
+                    <p><strong>Symbols:</strong>
+                        <ul>
+                            ${symbolsList}
+                        </ul>
+                    </p>
                     <p><strong>Spouse Name:</strong> ${member.spouseName}</p>
                 </div>
             </div>
